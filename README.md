@@ -1,2 +1,2 @@
 # GRE Essay Practice
-A tool which helps with practicing essay responses (analytical writing section) for the GRE
+A tool that helps with practicing essay responses for the GRE test
