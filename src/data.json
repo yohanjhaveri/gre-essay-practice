@@ -1,0 +1,986 @@
+[
+  {
+    "id": "1",
+    "type": "issue",
+    "prompt": "Governments should place few, if any, restrictions on scientific research and development.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "2",
+    "type": "issue",
+    "prompt": "The best way to teach is to praise positive actions and ignore negative ones.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "3",
+    "type": "issue",
+    "prompt": "Governments should offer college and university education free of charge to all students.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "4",
+    "type": "issue",
+    "prompt": "The luxuries and conveniences of contemporary life prevent people from developing into truly strong and independent individuals.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "5",
+    "type": "issue",
+    "prompt": "In any field of inquiry, the beginner is more likely than the expert to make important contributions.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "6",
+    "type": "issue",
+    "prompt": "The surest indicator of a great nation is represented not by the achievements of its rulers, artists, or scientists, but by the general welfare of its people.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "7",
+    "type": "issue",
+    "prompt": "The best way to teach — whether as an educator, employer, or parent — is to praise positive actions and ignore negative ones.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "8",
+    "type": "issue",
+    "prompt": "Teachers' salaries should be based on their students' academic performance.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "9",
+    "type": "issue",
+    "prompt": "Society should make efforts to save endangered species only if the potential extinction of those species is the result of human activities.",
+    "instructions": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+  },
+  {
+    "id": "10",
+    "type": "issue",
+    "prompt": "College students should base their choice of a field of study on the availability of jobs in that field.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "11",
+    "type": "issue",
+    "prompt": "As we acquire more knowledge, things do not become more comprehensible, but more complex and mysterious.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "12",
+    "type": "issue",
+    "prompt": "In any situation, progress requires discussion among people who have contrasting points of view.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "13",
+    "type": "issue",
+    "prompt": "Educational institutions should dissuade students from pursuing fields of study in which they are unlikely to succeed.",
+    "instructions": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+  },
+  {
+    "id": "14",
+    "type": "issue",
+    "prompt": "Governments should not fund any scientific research whose consequences are unclear.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "15",
+    "type": "issue",
+    "prompt": "Society should identify those children who have special talents and provide training for them at an early age to develop their talents.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "16",
+    "type": "issue",
+    "prompt": "It is primarily through our identification with social groups that we define ourselves.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "17",
+    "type": "issue",
+    "prompt": "College students should be encouraged to pursue subjects that interest them rather than the courses that seem most likely to lead to jobs.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developingand supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "18",
+    "type": "issue",
+    "prompt": "Claim: When planning courses, educators should take into account the interests and suggestions of their students. \n Reason: Students are more motivated to learn when they are interested in what they are studying.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "19",
+    "type": "issue",
+    "prompt": "The greatness of individuals can be decided only by those who live after them, not by their contemporaries.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "20",
+    "type": "issue",
+    "prompt": "Students should always question what they are taught instead of accepting it passively.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "21",
+    "type": "issue",
+    "prompt": "The increasingly rapid pace of life today causes more problems than it solves.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "22",
+    "type": "issue",
+    "prompt": "Claim: It is no longer possible for a society to regard any living man or woman as a hero.\nReason: The reputation of anyone who is subjected to media scrutiny will eventually be diminished.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "23",
+    "type": "issue",
+    "prompt": "Competition for high grades seriously limits the quality of learning at all levels of education.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "24",
+    "type": "issue",
+    "prompt": "Universities should require every student to take a variety of courses outside the student's field of study.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "25",
+    "type": "issue",
+    "prompt": "Educators should find out what students want included in the curriculum and then offer it to them.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "26",
+    "type": "issue",
+    "prompt": "Educators should teach facts only after their students have studied the ideas, trends, and concepts that help explain those facts.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "27",
+    "type": "issue",
+    "prompt": "Claim: We can usually learn much more from people whose views we share than from those whose views contradict our own.\nReason: Disagreement can cause stress and inhibit learning.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "28",
+    "type": "issue",
+    "prompt": "Government officials should rely on their own judgment rather than unquestioningly carry out the will of the people they serve.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "29",
+    "type": "issue",
+    "prompt": "Young people should be encouraged to pursue long-term, realistic goals rather than seek immediate fame and recognition.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "30",
+    "type": "issue",
+    "prompt": "The best way to teach is to praise positive actions and ignore negative ones.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "31",
+    "type": "issue",
+    "prompt": "If a goal is worthy, then any means taken to attain it are justifiable.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "32",
+    "type": "issue",
+    "prompt": "In order to become well-rounded individuals, all college students should be required to take courses in which they read poetry, novels, mythology, and other types of imaginative literature.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "33",
+    "type": "issue",
+    "prompt": "In order for any work of art — for example, a film, a novel, a poem, or a song — to have merit, it must be understandable to most people.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "34",
+    "type": "issue",
+    "prompt": "Many important discoveries or creations are accidental: it is usually while seeking the answer to one question that we come across the answer to another.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "35",
+    "type": "issue",
+    "prompt": "The main benefit of the study of history is to dispel the illusion that people living now are significantly different from people who lived in earlier times.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "36",
+    "type": "issue",
+    "prompt": "Learning is primarily a matter of personal discipline; students cannot be motivated by school or college alone.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "37",
+    "type": "issue",
+    "prompt": "Scientists and other researchers should focus their research on areas that are likely to benefit the greatest number of people.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "38",
+    "type": "issue",
+    "prompt": "Politicians should pursue common ground and reasonable consensus rather than elusive ideals.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "39",
+    "type": "issue",
+    "prompt": "People should undertake risky action only after they have carefully considered its consequences.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "40",
+    "type": "issue",
+    "prompt": "Leaders are created by the demands that are placed on them.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "41",
+    "type": "issue",
+    "prompt": "There is little justification for society to make extraordinary efforts — especially at a great cost in money and jobs — to save endangered animal or plant species.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "42",
+    "type": "issue",
+    "prompt": "The human mind will always be superior to machines because machines are only tools of human minds.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "43",
+    "type": "issue",
+    "prompt": "People who are the most deeply committed to an idea or policy are also the most critical of it.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "44",
+    "type": "issue",
+    "prompt": "Some people believe that society should try to save every plant and animal species, despite the expense to humans in effort, time, and financial well-being. Others believe that society need not make extraordinary efforts, especially at a great cost in money and jobs, to save endangered species.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "45",
+    "type": "issue",
+    "prompt": "Some people believe that the purpose of education is to free the mind and the spirit. Others believe that formal education tends to restrain our minds and spirits rather than set them free.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "46",
+    "type": "issue",
+    "prompt": "Some people believe it is often necessary, even desirable, for political leaders to withhold information from the public. Others believe that the public has a right to be fully informed.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "47",
+    "type": "issue",
+    "prompt": "Claim: Universities should require every student to take a variety of courses outside the student's major field of study.\nReason: Acquiring knowledge of various academic disciplines is the best way to become truly educated.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "48",
+    "type": "issue",
+    "prompt": "Young people should be encouraged to pursue long-term, realistic goals rather than seek immediate fame and recognition.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "49",
+    "type": "issue",
+    "prompt": "Governments should not fund any scientific research whose consequences are unclear.",
+    "instructions": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+  },
+  {
+    "id": "50",
+    "type": "issue",
+    "prompt": "Young people should be encouraged to pursue long-term, realistic goals rather than seek immediate fame and recognition.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "51",
+    "type": "issue",
+    "prompt": "In this age of intensive media coverage, it is no longer possible for a society to regard any living man or woman as a hero.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "52",
+    "type": "issue",
+    "prompt": "We can usually learn much more from people whose views we share than from people whose views contradict our own.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "53",
+    "type": "issue",
+    "prompt": "The most effective way to understand contemporary culture is to analyze the trends of its youth.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "54",
+    "type": "issue",
+    "prompt": "People's attitudes are determined more by their immediate situation or surroundings than by society as a whole.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "55",
+    "type": "issue",
+    "prompt": "Nations should suspend government funding for the arts when significant numbers of their citizens are hungry or unemployed.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "56",
+    "type": "issue",
+    "prompt": "All parents should be required to volunteer time to their children's schools.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "57",
+    "type": "issue",
+    "prompt": "Colleges and universities should require their students to spend at least one semester studying in a foreign country.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "58",
+    "type": "issue",
+    "prompt": "Teachers' salaries should be based on the academic performance of their students.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "59",
+    "type": "issue",
+    "prompt": "It is no longer possible for a society to regard any living man or woman as a hero.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "60",
+    "type": "issue",
+    "prompt": "Some people believe that in order to thrive, a society must put its own overall success before the well-being of its individual citizens. Others believe that the wellbeing of a society can only be measured by the general welfare of all its people.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "61",
+    "type": "issue",
+    "prompt": "Claim: Any piece of information referred to as a fact should be mistrusted, since it may well be proven false in the future.\nReason: Much of the information that people assume is factual actually turns out to be inaccurate.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "62",
+    "type": "issue",
+    "prompt": "Claim: Nations should suspend government funding for the arts when significant numbers of their citizens are hungry or unemployed.\nReason: It is inappropriate — and, perhaps, even cruel — to use public resources to fund the arts when people's basic needs are not being met.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "63",
+    "type": "issue",
+    "prompt": "Claim: Many problems of modern society cannot be solved by laws and the legal system.\nReason: Laws cannot change what is in people's hearts or minds.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "64",
+    "type": "issue",
+    "prompt": "Educators should take students' interests into account when planning the content of the courses they teach.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "65",
+    "type": "issue",
+    "prompt": "The primary goal of technological advancement should be to increase people's efficiency so that they have more leisure time.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "66",
+    "type": "issue",
+    "prompt": "Educators should base their assessment of students' learning not on students' grasp of facts but on the ability to explain the ideas, trends, and concepts that those facts illustrate.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "67",
+    "type": "issue",
+    "prompt": "Unfortunately, in contemporary society, creating an appealing image has become more important than the reality or truth behind that image.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "68",
+    "type": "issue",
+    "prompt": "The effectiveness of a country's leaders is best measured by examining the wellbeing of that country's citizens.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "69",
+    "type": "issue",
+    "prompt": "All parents should be required to volunteer time to their children's schools.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "70",
+    "type": "issue",
+    "prompt": "A nation should require all of its students to study the same national curriculum until they enter college.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "71",
+    "type": "issue",
+    "prompt": "Colleges and universities should require their students to spend at least one semester studying in a foreign country.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "72",
+    "type": "issue",
+    "prompt": "Educational institutions should actively encourage their students to choose fields of study in which jobs are plentiful.",
+    "instructions": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+  },
+  {
+    "id": "73",
+    "type": "issue",
+    "prompt": "People's behavior is largely determined by forces not of their own making.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "74",
+    "type": "issue",
+    "prompt": "Colleges and universities should require their students to spend at least one semester studying in a foreign country.",
+    "instructions": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+  },
+  {
+    "id": "75",
+    "type": "issue",
+    "prompt": "Although innovations such as video, computers, and the Internet seem to offer schools improved methods for instructing students, these technologies all too often distract from real learning.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "76",
+    "type": "issue",
+    "prompt": "Universities should require every student to take a variety of courses outside the student's field of study.",
+    "instructions": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+  },
+  {
+    "id": "77",
+    "type": "issue",
+    "prompt": "The best ideas arise from a passionate interest in commonplace things.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "78",
+    "type": "issue",
+    "prompt": "To be an effective leader, a public official must maintain the highest ethical and moral standards.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "79",
+    "type": "issue",
+    "prompt": "Claim: Imagination is a more valuable asset than experience.\nReason: People who lack experience are free to imagine what is possible without the constraints of established habits and attitudes.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "80",
+    "type": "issue",
+    "prompt": "In most professions and academic fields, imagination is more important than knowledge.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "81",
+    "type": "issue",
+    "prompt": "To be an effective leader, a public official must maintain the highest ethical and moral standards.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "82",
+    "type": "issue",
+    "prompt": "Critical judgment of work in any given field has little value unless it comes from someone who is an expert in that field.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "83",
+    "type": "issue",
+    "prompt": "Some people believe that scientific discoveries have given us a much better understanding of the world around us. Others believe that science has revealed to us that the world is infinitely more complex than we ever realized.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "84",
+    "type": "issue",
+    "prompt": "Critical judgment of work in any given field has little value unless it comes from someone who is an expert in that field.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "85",
+    "type": "issue",
+    "prompt": "In any profession — business, politics, education, government — those in power should step down after five years.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "86",
+    "type": "issue",
+    "prompt": "Requiring university students to take a variety of courses outside their major fields of study is the best way to ensure that students become truly educated.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "87",
+    "type": "issue",
+    "prompt": "Claim: The surest indicator of a great nation is not the achievements of its rulers, artists, or scientists.\nReason: The surest indicator of a great nation is actually the welfare of all itspeople.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "88",
+    "type": "issue",
+    "prompt": "Any leader who is quickly and easily influenced by shifts in popular opinion will accomplish little.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "89",
+    "type": "issue",
+    "prompt": "Government officials should rely on their own judgment rather than unquestioningly carry out the will of the people whom they serve.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "90",
+    "type": "issue",
+    "prompt": "A nation should require all of its students to study the same national curriculum until they enter college.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "91",
+    "type": "issue",
+    "prompt": "It is primarily in cities that a nation's cultural traditions are generated and preserved.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "92",
+    "type": "issue",
+    "prompt": "We can learn much more from people whose views we share than from people whose views contradict our own.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "93",
+    "type": "issue",
+    "prompt": "When old buildings stand on ground that modern planners feel could be better used for modern purposes, modern development should be given precedence over the preservation of historic buildings.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "94",
+    "type": "issue",
+    "prompt": "Claim: The surest indicator of a great nation must be the achievements of its rulers, artists, or scientists.\nReason: Great achievements by a nation's rulers, artists, or scientists will ensure a good life for the majority of that nation's people.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "95",
+    "type": "issue",
+    "prompt": "Some people claim that you can tell whether a nation is great by looking at the achievements of its rulers, artists, or scientists. Others argue that the surest indicator of a great nation is, in fact, the general welfare of all its people.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "96",
+    "type": "issue",
+    "prompt": "The best way to understand the character of a society is to examine the character of the men and women that the society chooses as its heroes or its role models.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "97",
+    "type": "issue",
+    "prompt": "All college and university students would benefit from spending at least one semester studying in a foreign country.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "98",
+    "type": "issue",
+    "prompt": "Some people claim that a nation's government should preserve its wilderness areas in their natural state. Others argue that these areas should be developed for potential economic gain.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "99",
+    "type": "issue",
+    "prompt": "In most professions and academic fields, imagination is more important than knowledge.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "100",
+    "type": "issue",
+    "prompt": "The surest indicator of a great nation is not the achievements of its rulers, artists, or scientists, but the general well-being of all its people.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "101",
+    "type": "issue",
+    "prompt": "Some people argue that successful leaders in government, industry, or other fields must be highly competitive. Other people claim that in order to be successful, a leader must be willing and able to cooperate with others.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "102",
+    "type": "issue",
+    "prompt": "College students should base their choice of a field of study on the availability of jobs in that field.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "103",
+    "type": "issue",
+    "prompt": "Some people believe that corporations have a responsibility to promote the wellbeing of the societies and environments in which they operate. Others believe that the only responsibility of corporations, provided they operate within the law, is to make as much money as possible.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "104",
+    "type": "issue",
+    "prompt": "Claim: Researchers should not limit their investigations to only those areas in which they expect to discover something that has an immediate, practical application.\nReason: It is impossible to predict the outcome of a line of research with any certainty.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "105",
+    "type": "issue",
+    "prompt": "Some people believe that our ever-increasing use of technology significantly reduces our opportunities for human interaction. Other people believe that technology provides us with new and better ways to communicate and connect with one another.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "106",
+    "type": "issue",
+    "prompt": "Claim: Knowing about the past cannot help people to make important decisions today.\nReason: The world today is significantly more complex than it was even in the relatively recent past.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "107",
+    "type": "issue",
+    "prompt": "Claim: Knowing about the past cannot help people to make important decisions today.\nReason: We are not able to make connections between current events and past events until we have some distance from both.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "108",
+    "type": "issue",
+    "prompt": "Educational institutions should actively encourage their students to choose fields of study that will prepare them for lucrative careers.",
+    "instructions": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+  },
+  {
+    "id": "109",
+    "type": "issue",
+    "prompt": "Educational institutions should actively encourage their students to choose fields of study in which jobs are plentiful.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "110",
+    "type": "issue",
+    "prompt": "Educational institutions have a responsibility to dissuade students from pursuing fields of study in which they are unlikely to succeed.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "111",
+    "type": "issue",
+    "prompt": "Some people believe that competition for high grades motivates students to excel in the classroom. Others believe that such competition seriously limits the quality of real learning.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "112",
+    "type": "issue",
+    "prompt": "Claim: Major policy decisions should always be left to politicians and other government experts.\nReason: Politicians and other government experts are more informed and thus have better judgment and perspective than do members of the general public.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "113",
+    "type": "issue",
+    "prompt": "Some people believe that universities should require every student to take a variety of courses outside the student's field of study. Others believe that universities should not force students to take any courses other than those that will help prepare them for jobs in their chosen fields.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented"
+  },
+  {
+    "id": "114",
+    "type": "issue",
+    "prompt": "It is more harmful to compromise one's own beliefs than to adhere to them.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "115",
+    "type": "issue",
+    "prompt": "Claim: Colleges and universities should specify all required courses and eliminate elective courses in order to provide clear guidance for students.\nReason: College students — like people in general — prefer to follow directions rather than make their own decisions.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "116",
+    "type": "issue",
+    "prompt": "No field of study can advance significantly unless it incorporates knowledge and experience from outside that field.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "117",
+    "type": "issue",
+    "prompt": "True success can be measured primarily in terms of the goals one sets for oneself.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "118",
+    "type": "issue",
+    "prompt": "The general welfare of a nation's people is a better indication of that nation's greatness than are the achievements of its rulers, artists, or scientists.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "119",
+    "type": "issue",
+    "prompt": "The best test of an argument is the argument's ability to convince someone with an opposing viewpoint.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "120",
+    "type": "issue",
+    "prompt": "The effectiveness of a country's leaders is best measured by examining the wellbeing of that country's citizens.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "121",
+    "type": "issue",
+    "prompt": "Nations should pass laws to preserve any remaining wilderness areas in their natural state.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with them claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "122",
+    "type": "issue",
+    "prompt": "In any field — business, politics, education, government — those in power should be required to step down after five years.",
+    "instructions": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+  },
+  {
+    "id": "123",
+    "type": "issue",
+    "prompt": "Some people claim that the goal of politics should be the pursuit of an ideal. Others argue that the goal should be finding common ground and reaching reasonable consensus",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "124",
+    "type": "issue",
+    "prompt": "The best way to solve environmental problems caused by consumer-generated waste is for towns and cities to impose strict limits on the amount of trash they will accept from each household.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "125",
+    "type": "issue",
+    "prompt": "We learn our most valuable lessons in life from struggling with our limitations rather than from enjoying our successes.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "126",
+    "type": "issue",
+    "prompt": "Claim: While boredom is often expressed with a sense of self-satisfaction, it should really be a source of embarrassment.\nReason: Boredom arises from a lack of imagination and self-motivation.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "127",
+    "type": "issue",
+    "prompt": "Some people believe that the most important qualities of an effective teacher are understanding and empathy. Others believe that it is more important for teachers to be rigorous and demanding in their expectations for students.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "128",
+    "type": "issue",
+    "prompt": "Claim: Though often considered an objective pursuit, learning about the historical past requires creativity.\nReason: Because we can never know the past directly, we must reconstruct it by imaginatively interpreting historical accounts, documents, and artifacts.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which the claim is based."
+  },
+  {
+    "id": "129",
+    "type": "issue",
+    "prompt": "Claim: No act is done purely for the benefit of others.\nReason: All actions — even those that seem to be done for other people — are based on self-interest.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which the claim is based."
+  },
+  {
+    "id": "130",
+    "type": "issue",
+    "prompt": "To understand the most important characteristics of a society, one must study its major cities.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "131",
+    "type": "issue",
+    "prompt": "Educational institutions have a responsibility to dissuade students from pursuing fields of study in which they are unlikely to succeed.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "132",
+    "type": "issue",
+    "prompt": "Scandals are useful because they focus our attention on problems in ways that no speaker or reformer ever could.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "133",
+    "type": "issue",
+    "prompt": "Claim: Governments must ensure that their major cities receive the financial support they need in order to thrive.\nReason: It is primarily in cities that a nation's cultural traditions are preserved and generated.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "134",
+    "type": "issue",
+    "prompt": "Some people believe that government funding of the arts is necessary to ensure that the arts can flourish and be available to all people. Others believe that government funding of the arts threatens the integrity of the arts.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "135",
+    "type": "issue",
+    "prompt": "Claim: In any field — business, politics, education, government — those in power should step down after five years.\nReason: The surest path to success for any enterprise is revitalization through new leadership.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "136",
+    "type": "issue",
+    "prompt": "In any field of endeavor, it is impossible to make a significant contribution without first being strongly influenced by past achievements within that field.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "137",
+    "type": "issue",
+    "prompt": "Nations should pass laws to preserve any remaining wilderness areas in their natural state, even if these areas could be developed for economic gain.",
+    "instructions": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+  },
+  {
+    "id": "138",
+    "type": "issue",
+    "prompt": "People's behavior is largely determined by forces not of their own making.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "139",
+    "type": "issue",
+    "prompt": "Governments should offer a free university education to any student who has been admitted to a university but who cannot afford the tuition.",
+    "instructions": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+  },
+  {
+    "id": "140",
+    "type": "issue",
+    "prompt": "Claim: In any situation, the best way to persuade other people is to present them with facts and statistics rather than with emotional arguments.\nReason: Facts are objective, so they are more persuasive than subjective appeals.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "141",
+    "type": "issue",
+    "prompt": "Some people believe that success in creative fields, such as painting, fiction writing, and filmmaking, primarily requires hard work and perseverance. Others believe that such success mainly requires innate talents that cannot be learned.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "142",
+    "type": "issue",
+    "prompt": "In business, education, and government, it is always appropriate to remain skeptical of new leaders until those leaders show that they are worthy of trust.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "143",
+    "type": "issue",
+    "prompt": "Claim: Group assignments that students must work together to complete should replace a substantial amount of traditional lecture-based instruction in college and university courses.\nReason: It is vital for students to gain experience collaborating with peers to study a topic and to achieve a common goal.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "144",
+    "type": "issue",
+    "prompt": "Universities should require every student to take a variety of courses outside the student's field of study.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "145",
+    "type": "issue",
+    "prompt": "A nation should require all of its students to study the same national curriculum until they enter college.",
+    "instructions": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+  },
+  {
+    "id": "146",
+    "type": "issue",
+    "prompt": "Educational institutions should actively encourage their students to choose fields of study that will prepare them for lucrative careers.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+  },
+  {
+    "id": "147",
+    "type": "issue",
+    "prompt": "Some people believe that in order to be effective, political leaders must yield to public opinion and abandon principle for the sake of compromise. Others believe that the most essential quality of an effective leader is the ability to remain consistently committed to particular principles and objectives.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "148",
+    "type": "issue",
+    "prompt": "Formal education tends to restrain our minds and spirits rather than set them free.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "149",
+    "type": "issue",
+    "prompt": "The well-being of a society is enhanced when many of its people question authority.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "150",
+    "type": "issue",
+    "prompt": "Governments should focus on solving the immediate problems of today rather than on trying to solve the anticipated problems of the future.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+  },
+  {
+    "id": "151",
+    "type": "issue",
+    "prompt": "Some people believe that college students should consider only their own talents and interests when choosing a field of study. Others believe that college students should base their choice of a field of study on the availability of jobs in that field.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "152",
+    "type": "issue",
+    "prompt": "Laws should be flexible enough to take account of various circumstances, times, and places.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+  },
+  {
+    "id": "153",
+    "type": "issue",
+    "prompt": "Claim: The best way to understand the character of a society is to examine the character of the men and women that the society chooses as its heroes or its role models.\nReason: Heroes and role models reveal a society's highest ideals.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "154",
+    "type": "issue",
+    "prompt": "Some people believe that it is helpful to view a challenging situation as an opportunity for personal growth. Others believe that reimagining challenging situations this way occupies too much of the focus one needs to face challenges effectively.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "155",
+    "type": "issue",
+    "prompt": "Some people believe that traveling to and living in numerous places increases one's ability to relate and connect to other people. Others believe that this ability is better cultivated by living in one place and developing a deep understanding of that community.",
+    "instructions": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+  },
+  {
+    "id": "156",
+    "type": "issue",
+    "prompt": "Claim: Young people's tendency to make extensive use of portable devices like smartphones and tablets has hurt their development of social skills. Reason: These devices encourage users to form artificial personalities and relationships online rather than fully and honestly engaging with the people around them.",
+    "instructions": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+  },
+  {
+    "id": "157",
+    "type": "argument",
+    "prompt": "The following is a memo from the marketing director of Lamfonz Pet Stores, which operates thirty pet stores worldwide.\n\"Five years ago, our competitor Fish Emporium started advertising in Exotic Pets Monthly magazine. Their sales overall have seen a steady increase of 3-to-5 percent per year since then. In fact, the Fish Emporium store in Gulf City saw even more remarkable gains, becoming the most visited pet store in the United States last year. Meanwhile, our two Lamfonz stores in Gulf City have seen sales steadily decline during the same period. It seems clear that we should immediately begin placing our own ads in Exotic Pets Monthly and other popular pet magazines. If we do so, we will be sure to reverse this recent trend of declining sales and start making a profit again.\"",
+    "instructions": "Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument."
+  },
+  {
+    "id": "158",
+    "type": "argument",
+    "prompt": "The following appeared in a memo from a vice president of Alta Manufacturing.\n\"During the past year, Alta Manufacturing had 30 percent more on-the-job accidents than nearby Panoply Industries, where the work shifts are one hour shorter than ours. Experts believe that a significant contributing factor in many accidents is fatigue caused by sleep deprivation among workers. Therefore, to reduce the number of on-the-job accidents at Alta, we recommend shortening each of our three work shifts by one hour. If we do this, our employees will get adequate amounts of sleep.\"",
+    "instructions": "Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation."
+  },
+  {
+    "id": "159",
+    "type": "argument",
+    "prompt": "The following appeared in a memorandum from the mayor of Wistfold:\n\"A recent study revealed that the number of children requiring medical attention for illnesses in our town is 40 percent higher than in the neighboring town of Champsfield. Last year the Champsfield school district implemented an educational program called \"Kerzac Plus\" that promotes healthier habits among children. Because prepackaged convenience foods have less nutritional value than fresh fruits and vegetables, Kerzac Plus guidance led to banning the sale of candy bars and soft drinks in Champsfield schools. Kerzac Plus also provides informational posters and live presentations for children that explain the importance of healthy foods and exercise, as well as the risks of making unhealthy lifestyle choices. The clearest explanation for the lower medical needs of Champsfield’s children compared with Wistfold’s is the introduction of the Kerzac Plus program to promote student health.\"",
+    "instructions": "Write a response in which you discuss one or more alternative explanations that could rival the proposed explanation and explain how your explanation(s) can plausibly account for the facts presented in the argument."
+  },
+  {
+    "id": "160",
+    "type": "argument",
+    "prompt": "The following appeared in an article written by Dr. Karp, an anthropologist.\n\"Twenty years ago, Dr. Field, a noted anthropologist, visited the island of Tertia and concluded from his observations that children in Tertia were reared by an entire village rather than by their own biological parents. However, my recent interviews with children living in the group of islands that includes Tertia show that these children spend much more time talking about their biological parents than about other adults in the village. This research of mine proves that Dr. Field's conclusion about Tertian village culture is invalid and thus that the observation-centered approach to studying cultures is invalid as well. The interview-centered method that my team of graduate students is currently using in Tertia will establish a much more accurate understanding of child-rearing traditions there and in other island cultures.\"",
+    "instructions": "Write a response in which you examine the stated and/or unstated assumptions of the argument. Be sure to explain how the argument depends on these assumptions and what the implications are for the argument if the assumptions prove unwarranted."
+  },
+  {
+    "id": "161",
+    "type": "argument",
+    "prompt": "A recently issued twenty-year study on headaches suffered by the residents of Mentia investigated the possible therapeutic effect of consuming salicylates. Salicylates are members of the same chemical family as aspirin, a medicine used to treat headaches. Although many foods are naturally rich in salicylates, foodprocessing companies also add salicylates to foods as preservatives. The twentyyear study found a correlation between the rise in the commercial use of salicylates and a steady decline in the average number of headaches reported by study participants. At the time when the study concluded, food-processing companies had just discovered that salicylates can also be used as flavor additives for foods, and, as a result, many companies plan to do so. Based on these study results, some health experts predict that residents of Mentia will suffer even fewer headaches in the future.",
+    "instructions": "Write a response in which you discuss what questions would need to be answered in order to decide whether the prediction and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the prediction."
+  },
+  {
+    "id": "162",
+    "type": "argument",
+    "prompt": "The following was written as a part of an application for a small-business loan by a group of developers in the city of Monroe.\n\"A jazz music club in Monroe would be a tremendously profitable enterprise. Currently, the nearest jazz club is 65 miles away; thus, the proposed new jazz club in Monroe, the C-Note, would have the local market all to itself. Plus, jazz is extremely popular in Monroe: over 100,000 people attended Monroe's annual jazz festival last summer; several well-known jazz musicians live in Monroe; and the highest-rated radio program in Monroe is 'Jazz Nightly,' which airs every weeknight at 7 P.M. Finally, a nationwide study indicates that the typical jazz fan spends close to $1,000 per year on jazz entertainment.\"",
+    "instructions": "Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument."
+  },
+  {
+    "id": "163",
+    "type": "argument",
+    "prompt": "The following appeared in the summary of a study on headaches suffered by the residents of Mentia.\n\"Salicylates are members of the same chemical family as aspirin, a medicine used to treat headaches. Although many foods are naturally rich in salicylates, for the past several decades, food-processing companies have also been adding salicylates to foods as preservatives. This rise in the commercial use of salicylates has been found to correlate with a steady decline in the average number of headaches reported by participants in our twenty-year study. Recently, food-processing companies have found that salicylates can also be used as flavor additives for foods. With this new use for salicylates, we can expect a continued steady decline in the number of headaches suffered by the average citizen of Mentia.\"",
+    "instructions": "Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument."
+  },
+  {
+    "id": "164",
+    "type": "argument",
+    "prompt": "The following appeared in a letter to the editor of a local newspaper.\n\"Commuters complain that increased rush-hour traffic on Blue Highway between the suburbs and the city center has doubled their commuting time. The favored proposal of the motorists' lobby is to widen the highway, adding an additional lane of traffic. But last year's addition of a lane to the nearby Green Highway was followed by a worsening of traffic jams on it. A better alternative is to add a bicycle lane to Blue Highway. Many area residents are keen bicyclists. A bicycle lane would encourage them to use bicycles to commute, and so would reduce rush-hour traffic rather than fostering an increase.\"",
+    "instructions": "Write a response in which you discuss what specific evidence is needed to evaluate the argument and explain how the evidence would weaken or strengthen the argument."
+  }
+]
