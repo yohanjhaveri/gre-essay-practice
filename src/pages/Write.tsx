@@ -3,17 +3,15 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { Button, Flex, Grid, Heading, Text, Textarea } from "@chakra-ui/react";
 import { CountdownTimer } from "../components/CountdownTimer";
-import { useDevice } from "../hooks/useDevice";
-import { getCurrentTimeInSecondsUNIX } from "../utils/datetime";
+import { useTheme } from "../hooks/useTheme";
 import { RootState } from "../redux/store";
 import { actions } from "../redux/reducer";
-import { useTheme } from "../hooks/useTheme";
+import { getCurrentTimeInSecondsUNIX } from "../utils/datetime";
 
 export const Write = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  const { isDesktop } = useDevice();
   const { grayColor } = useTheme();
   const { essays, active } = useSelector((state: RootState) => state);
 
@@ -45,9 +43,9 @@ export const Write = () => {
     active?.startTime && active?.startTime + SECONDS_IN_30_MINUTES;
 
   return (
-    <Grid width={isDesktop ? "1000px" : "100%"} padding="30px">
+    <Grid width={{ base: "100%", xl: "1000px" }} padding="30px">
       <Heading size="md">Time Remaining</Heading>
-      {endTime && <CountdownTimer endTime={endTime} onTimerEnd={onSubmit} />}
+      {endTime && <CountdownTimer endTime={endTime} onTimerEnd={() => {}} />}
       <Text
         marginTop="30px"
         marginBottom="5px"

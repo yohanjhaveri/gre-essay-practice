@@ -13,7 +13,6 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { CompletedEssay } from "../components/CompletedEssay";
-import { useDevice } from "../hooks/useDevice";
 import { useTheme } from "../hooks/useTheme";
 import { RootState } from "../redux/store";
 import { actions } from "../redux/reducer";
@@ -22,7 +21,6 @@ export const Home = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  const { isDesktop } = useDevice();
   const { bgColor, grayColor, blueColor } = useTheme();
   const { essays, active, select } = useSelector((state: RootState) => state);
 
@@ -55,7 +53,7 @@ export const Home = () => {
 
   return (
     <Flex
-      width={isDesktop ? "1000px" : "100%"}
+      width={{ base: "100%", xl: "1000px" }}
       minHeight="100vh"
       padding="30px"
       flexDirection="column"
@@ -71,22 +69,22 @@ export const Home = () => {
       </Grid>
       <Grid width="100%" paddingY="30px" gap="20px">
         <Flex
-          justifyContent={isDesktop ? "space-between" : "center"}
-          alignItems={isDesktop ? "center" : "flex-start"}
-          flexDirection={isDesktop ? "row" : "column"}
-          gap={isDesktop ? "0" : "10px"}
+          justifyContent={{ base: "center", xl: "space-between" }}
+          alignItems={{ base: "flex-start", xl: "center" }}
+          flexDirection={{ base: "column", xl: "row" }}
+          gap={{ base: "10px", xl: "0" }}
         >
           <Heading size="md">Completed Essays</Heading>
           <Flex gap="10px">
             <Button
-              size={isDesktop ? "sm" : "xs"}
+              size={{ base: "xs", xl: "sm" }}
               colorScheme="blue"
               onClick={() => onClickWrite("issue")}
             >
               Attempt Issue Essay
             </Button>
             <Button
-              size={isDesktop ? "sm" : "xs"}
+              size={{ base: "xs", xl: "sm" }}
               colorScheme="blue"
               onClick={() => onClickWrite("argument")}
             >
@@ -95,28 +93,30 @@ export const Home = () => {
           </Flex>
         </Flex>
         {completedEssays.length ? (
-          <Grid gap="20px" templateColumns={isDesktop ? "1fr 1fr" : "1fr"}>
-            {completedEssays.map((essay) => (
-              <Box
-                key={essay.id}
-                cursor="pointer"
-                onClick={() => onClickView(essay.id)}
-              >
-                <CompletedEssay
-                  id={essay.id}
-                  prompt={essay.prompt}
-                  answer={essay.answer || ""}
-                  startTime={essay.startTime || 0}
-                />
-              </Box>
-            ))}
+          <Grid gap="20px" templateColumns={{ base: "1fr", xl: "1fr 1fr" }}>
+            {completedEssays
+              .sort((a, b) => (b.startTime || 0) - (a.startTime || 0))
+              .map((essay) => (
+                <Box
+                  key={essay.id}
+                  cursor="pointer"
+                  onClick={() => onClickView(essay.id)}
+                >
+                  <CompletedEssay
+                    id={essay.id}
+                    prompt={essay.prompt}
+                    answer={essay.answer || ""}
+                    startTime={essay.startTime || 0}
+                  />
+                </Box>
+              ))}
           </Grid>
         ) : (
           <Flex
             color={grayColor}
             bg={bgColor}
             textAlign="center"
-            borderRadius="5px"
+            borderRadius="md"
             justifyContent="center"
             alignItems="center"
             w="100%"

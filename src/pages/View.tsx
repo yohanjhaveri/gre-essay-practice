@@ -3,15 +3,13 @@ import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { Grid, Text, Link as ChakraLink } from "@chakra-ui/react";
 import { ArrowBackIcon } from "@chakra-ui/icons";
-import { useTheme } from "../hooks/useTheme";
-import { useDevice } from "../hooks/useDevice";
-import { RootState } from "../redux/store";
 import { EmptyResponse } from "../components/EmptyResponse";
+import { useTheme } from "../hooks/useTheme";
+import { RootState } from "../redux/store";
 
 export const View = () => {
   const navigate = useNavigate();
 
-  const { isDesktop } = useDevice();
   const { bgColor, grayColor, blueColor } = useTheme();
   const { essays, select } = useSelector((state: RootState) => state);
 
@@ -24,7 +22,7 @@ export const View = () => {
   }, []);
 
   return (
-    <Grid width={isDesktop ? "1000px" : "100%"} padding="30px">
+    <Grid width={{ base: "100%", xl: "1000px" }} padding="30px">
       <Link to="/">
         <ChakraLink
           display="flex"
