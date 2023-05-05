@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import { usePDF } from "@react-pdf/renderer";
 import { Stack } from "@chakra-ui/react";
 
@@ -13,26 +11,19 @@ import { ViewBack } from "./ViewBack";
 import { PDFDocument } from "../../components/PDFDocument";
 
 export const View = ({ context }: PageProps) => {
-  const navigate = useNavigate();
-
   const selectedEssay = context.essays.find(
     (essay) => essay.id === context.select
   ) as Required<Essay> | undefined;
 
-  useEffect(() => {
-    if (!context.select) {
-      navigate("/");
+  const onBack = () => {
+    if (context.select) {
+      context.unselectEssay();
     }
-
-    if (context.active?.id) {
-      navigate("/write");
-    }
-  }, [context]);
+  };
 
   const onRetry = () => {
     if (context.select) {
       context.redoEssay(context.select);
-      navigate("/write");
     }
   };
 
@@ -54,7 +45,7 @@ export const View = ({ context }: PageProps) => {
 
   return selectedEssay ? (
     <Stack spacing="8">
-      <ViewBack />
+      <ViewBack onBack={onBack} />
       <ViewQuestion
         prompt={selectedEssay.prompt}
         instructions={selectedEssay.instructions}

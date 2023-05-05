@@ -16,11 +16,7 @@ export type Essay = {
 
 export type Essays = Essay[];
 
-export type Active = {
-  id: string;
-  answer: string;
-  startTime: number;
-};
+export type Active = Required<Essay>;
 
 export type ContextValue = {
   essays: Essays;
@@ -59,12 +55,22 @@ export const Provider = ({ children }: ProviderProps) => {
 
   const startEssay = (essayId: string) => {
     // only start essay if not already active
+    const selectedEssay = essays.find((essay) => essay.id === essayId);
+
+    if (!selectedEssay) {
+      return;
+    }
+
     setActive(
       (prev) =>
         prev || {
-          id: essayId,
+          id: selectedEssay.id,
+          type: selectedEssay.type,
+          prompt: selectedEssay.prompt,
           answer: "",
           startTime: getCurrentTimeInSecondsUNIX(),
+          submitTime: 0,
+          instructions: selectedEssay.instructions,
         }
     );
   };
@@ -75,9 +81,13 @@ export const Provider = ({ children }: ProviderProps) => {
       setActive(
         (prev) =>
           prev && {
-            answer,
             id: prev.id,
+            type: prev.type,
+            prompt: prev.prompt,
+            answer,
             startTime: prev.startTime,
+            submitTime: prev.submitTime,
+            instructions: prev.instructions,
           }
       );
     }
@@ -93,14 +103,7 @@ export const Provider = ({ children }: ProviderProps) => {
     if (active) {
       setEssays((prev) =>
         prev.map((essay) =>
-          essay.id === active.id
-            ? {
-                ...essay,
-                answer: active.answer,
-                startTime: active.startTime,
-                submitTime,
-              }
-            : essay
+          essay.id === active.id ? { ...active, submitTime } : essay
         )
       );
 

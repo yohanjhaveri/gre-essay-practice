@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import { Stack } from "@chakra-ui/react";
 
 import { Footnote } from "../../components/Footnote";
@@ -12,18 +11,12 @@ import { HomeEssaysNone } from "./HomeEssaysNone";
 import { PageProps } from "../../components/PageWrapper";
 
 export const Home = ({ context }: PageProps) => {
-  const navigate = useNavigate();
-
   const completedEssays = context.essays.filter((essay) => essay.submitTime);
   const remainingEssays = context.essays.filter((essay) => !essay.submitTime);
 
   useEffect(() => {
     if (context.select) {
       context.unselectEssay();
-    }
-
-    if (context.active?.id) {
-      navigate("/write");
     }
   }, [context]);
 
@@ -34,12 +27,11 @@ export const Home = ({ context }: PageProps) => {
     const randomEssay = essayByType[randomIndex];
 
     context.startEssay(randomEssay.id);
-    navigate("/write");
   };
 
   const onClickView = (essayId: string) => {
+    console.log(essayId);
     context.selectEssay(essayId);
-    navigate("/view");
   };
 
   return (

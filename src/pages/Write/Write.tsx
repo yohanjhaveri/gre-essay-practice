@@ -1,6 +1,4 @@
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import { Grid, Stack } from "@chakra-ui/react";
+import { Stack } from "@chakra-ui/react";
 import { getCurrentTimeInSecondsUNIX } from "../../utils/datetime";
 
 import { WriteHeader } from "./WriteHeader";
@@ -11,18 +9,9 @@ import { WriteResponse } from "./WriteResponse";
 import { PageProps } from "../../components/PageWrapper";
 
 export const Write = ({ context }: PageProps) => {
-  const navigate = useNavigate();
-
   const activeEssay = context.essays.find(
     (essay) => essay.id === context.active?.id
   );
-
-  useEffect(() => {
-    // if there is no active essay, redirect back to home
-    if (!context.active?.id) {
-      navigate("/");
-    }
-  }, [context.active?.id]);
 
   const onChange = (value: string) => {
     context.updateEssay(value);
@@ -30,12 +19,10 @@ export const Write = ({ context }: PageProps) => {
 
   const onCancel = () => {
     context.cancelEssay();
-    navigate("/");
   };
 
   const onSubmit = () => {
     context.submitEssay(getCurrentTimeInSecondsUNIX());
-    navigate("/");
   };
 
   const SECONDS_IN_30_MINUTES = 30 * 60;
