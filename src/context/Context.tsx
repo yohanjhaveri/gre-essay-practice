@@ -1,12 +1,14 @@
-import { createContext, useState } from "react";
+import { createContext } from "react";
 import { useStatePersist } from "../hooks/useStatePersist";
 
 import data from "../data.json";
-import { getCurrentTimeInSecondsUNIX } from "../utils/datetime";
+import { getCurrentTimestampSeconds } from "../utils/datetime";
+
+export type EssayType = "issue" | "argument";
 
 export type Essay = {
   id: string;
-  type: "issue" | "argument";
+  type: EssayType;
   prompt: string;
   answer?: string;
   startTime?: number;
@@ -16,20 +18,20 @@ export type Essay = {
 
 export type Essays = Essay[];
 
-export type Active = Required<Essay>;
+export type ReqEssay = Required<Essay>;
 
 export type ContextValue = {
   essays: Essays;
-  active: Active | null;
-  select: string | null;
+  active: ReqEssay | null;
+  select: ReqEssay | null;
   selectEssay: (essayId: string) => void;
   unselectEssay: () => void;
   startEssay: (essayId: string) => void;
   updateEssay: (answer: string) => void;
   cancelEssay: () => void;
-  submitEssay: (submitTime: number) => void;
-  deleteEssay: (essayId: string) => void;
-  redoEssay: (essayId: string) => void;
+  submitEssay: () => void;
+  deleteEssay: () => void;
+  redoEssay: () => void;
 };
 
 export const Context = createContext<ContextValue | null>(null);
@@ -40,13 +42,17 @@ export type ProviderProps = {
 
 export const Provider = ({ children }: ProviderProps) => {
   const [essays, setEssays] = useStatePersist(data as Essays, "essays");
-  const [active, setActive] = useStatePersist<Active | null>(null, "active");
-  const [select, setSelect] = useState<string | null>(null);
+  const [active, setActive] = useStatePersist<ReqEssay | null>(null, "active");
+  const [select, setSelect] = useStatePersist<ReqEssay | null>(null, "select");
 
   const selectEssay = (essayId: string) => {
-    if (!active) {
-      setSelect(essayId);
+    const essay = essays.find((e) => e.id === essayId);
+
+    if (!essay || active) {
+      return;
     }
+
+    setSelect(essay as ReqEssay);
   };
 
   const unselectEssay = () => {
@@ -54,70 +60,78 @@ export const Provider = ({ children }: ProviderProps) => {
   };
 
   const startEssay = (essayId: string) => {
-    // only start essay if not already active
-    const selectedEssay = essays.find((essay) => essay.id === essayId);
+    const essay = essays.find((e) => e.id === essayId);
 
-    if (!selectedEssay) {
+    if (!essay || active) {
       return;
     }
 
     setActive(
       (prev) =>
         prev || {
-          id: selectedEssay.id,
-          type: selectedEssay.type,
-          prompt: selectedEssay.prompt,
+          id: essay.id,
+          type: essay.type,
+          prompt: essay.prompt,
           answer: "",
-          startTime: getCurrentTimeInSecondsUNIX(),
-          submitTime: 0,
-          instructions: selectedEssay.instructions,
+          startTime: getCurrentTimestampSeconds(),
+          submitTime: -1,
+          instructions: essay.instructions,
         }
     );
   };
 
   const updateEssay = (answer: string) => {
-    // only update essay if already active
-    if (active) {
-      setActive(
-        (prev) =>
-          prev && {
-            id: prev.id,
-            type: prev.type,
-            prompt: prev.prompt,
-            answer,
-            startTime: prev.startTime,
-            submitTime: prev.submitTime,
-            instructions: prev.instructions,
-          }
-      );
+    if (!active) {
+      return;
     }
+
+    setActive(
+      (prev) =>
+        prev && {
+          id: prev.id,
+          type: prev.type,
+          prompt: prev.prompt,
+          answer,
+          startTime: prev.startTime,
+          submitTime: prev.submitTime,
+          instructions: prev.instructions,
+        }
+    );
   };
 
   const cancelEssay = () => {
-    // only cancel essay if already active
-    setActive((prev) => prev && null);
-  };
-
-  const submitEssay = (submitTime: number) => {
-    // only submit essay if already active
-    if (active) {
-      setEssays((prev) =>
-        prev.map((essay) =>
-          essay.id === active.id ? { ...active, submitTime } : essay
-        )
-      );
-
-      setSelect(active.id);
-      setActive(null);
+    if (!active) {
+      return;
     }
+
+    setActive(null);
   };
 
-  const deleteEssay = (essayId: string) => {
-    setSelect(null);
+  const submitEssay = () => {
+    if (!active) {
+      return;
+    }
 
     setEssays((prev) =>
+      prev.map((e) =>
+        e.id === active.id
+          ? { ...active, submitTime: getCurrentTimestampSeconds() }
+          : e
+      )
+    );
+    setSelect(active);
+    setActive(null);
+  };
+
+  const deleteEssay = () => {
+    if (!select) {
+      return;
+    }
+
+    setSelect(null);
+    setEssays((prev) =>
       prev.map((essay) =>
-        essay.id === essayId
+        essay.id === select.id
           ? {
               id: essay.id,
               type: essay.type,
@@ -129,9 +143,12 @@ export const Provider = ({ children }: ProviderProps) => {
     );
   };
 
-  const redoEssay = (essayId: string) => {
-    deleteEssay(essayId);
-    startEssay(essayId);
+  const redoEssay = () => {
+    deleteEssay();
+
+    if (select) {
+      startEssay(select.id);
+    }
   };
 
   return (

@@ -1,5 +1,4 @@
 import { Stack } from "@chakra-ui/react";
-import { getCurrentTimeInSecondsUNIX } from "../../utils/datetime";
 
 import { WriteHeader } from "./WriteHeader";
 import { WriteQuestion } from "./WriteQuestion";
@@ -7,11 +6,10 @@ import { WriteButtons } from "./WriteButtons";
 import { WriteResponse } from "./WriteResponse";
 
 import { PageProps } from "../../components/PageWrapper";
+import { ReqEssay } from "../../context/Context";
 
 export const Write = ({ context }: PageProps) => {
-  const activeEssay = context.essays.find(
-    (essay) => essay.id === context.active?.id
-  );
+  const activeEssay = context.active as ReqEssay;
 
   const onChange = (value: string) => {
     context.updateEssay(value);
@@ -22,17 +20,16 @@ export const Write = ({ context }: PageProps) => {
   };
 
   const onSubmit = () => {
-    context.submitEssay(getCurrentTimeInSecondsUNIX());
+    context.submitEssay();
   };
 
   const SECONDS_IN_30_MINUTES = 30 * 60;
 
-  return context.active && activeEssay ? (
+  return activeEssay ? (
     <Stack spacing="8">
       <WriteHeader
         endTime={
-          context.active.startTime &&
-          context.active.startTime + SECONDS_IN_30_MINUTES
+          activeEssay.startTime && activeEssay.startTime + SECONDS_IN_30_MINUTES
         }
         onSubmit={onSubmit}
       />
@@ -42,7 +39,7 @@ export const Write = ({ context }: PageProps) => {
           instructions={activeEssay.instructions}
         />
         <Stack spacing="4">
-          <WriteResponse answer={context.active.answer} onChange={onChange} />
+          <WriteResponse answer={activeEssay.answer} onChange={onChange} />
           <WriteButtons onCancel={onCancel} onSubmit={onSubmit} />
         </Stack>
       </Stack>

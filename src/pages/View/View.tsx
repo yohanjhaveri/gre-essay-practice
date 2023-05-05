@@ -1,19 +1,18 @@
 import { usePDF } from "@react-pdf/renderer";
 import { Stack } from "@chakra-ui/react";
 
+import { PDFDocument } from "../../components/PDFDocument";
+
+import { ViewBack } from "./ViewBack";
 import { ViewButtons } from "./ViewButtons";
 import { ViewQuestion } from "./ViewQuestion";
 import { ViewResponse } from "./ViewResponse";
 
-import { Essay } from "../../context/Context";
 import { PageProps } from "../../components/PageWrapper";
-import { ViewBack } from "./ViewBack";
-import { PDFDocument } from "../../components/PDFDocument";
+import { ReqEssay } from "../../context/Context";
 
 export const View = ({ context }: PageProps) => {
-  const selectedEssay = context.essays.find(
-    (essay) => essay.id === context.select
-  ) as Required<Essay> | undefined;
+  const selectedEssay = context.select as ReqEssay;
 
   const onBack = () => {
     if (context.select) {
@@ -22,23 +21,19 @@ export const View = ({ context }: PageProps) => {
   };
 
   const onRetry = () => {
-    if (context.select) {
-      context.redoEssay(context.select);
-    }
+    context.redoEssay();
   };
 
   const onDelete = () => {
-    if (context.select) {
-      context.deleteEssay(context.select);
-    }
+    context.deleteEssay();
   };
 
   const [instance] = usePDF({
     document: (
       <PDFDocument
-        prompt={selectedEssay?.prompt || ""}
-        instructions={selectedEssay?.instructions || ""}
-        answer={selectedEssay?.answer || ""}
+        prompt={selectedEssay.prompt}
+        instructions={selectedEssay.instructions}
+        answer={selectedEssay.answer}
       />
     ),
   });
@@ -54,7 +49,7 @@ export const View = ({ context }: PageProps) => {
         <ViewButtons
           onRetry={onRetry}
           onDelete={onDelete}
-          downloadName={`essay-response-${context.select}.pdf`}
+          downloadName={`essay-response-${selectedEssay.id}.pdf`}
           downloadLink={instance.url || ""}
           downloadLoading={instance.loading}
         />

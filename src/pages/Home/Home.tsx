@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Stack } from "@chakra-ui/react";
 
 import { Footnote } from "../../components/Footnote";
@@ -9,18 +8,13 @@ import { HomeEssaysGrid } from "./HomeEssaysGrid";
 import { HomeEssaysNone } from "./HomeEssaysNone";
 
 import { PageProps } from "../../components/PageWrapper";
+import { EssayType } from "../../context/Context";
 
 export const Home = ({ context }: PageProps) => {
   const completedEssays = context.essays.filter((essay) => essay.submitTime);
   const remainingEssays = context.essays.filter((essay) => !essay.submitTime);
 
-  useEffect(() => {
-    if (context.select) {
-      context.unselectEssay();
-    }
-  }, [context]);
-
-  const onClickWrite = (type: "issue" | "argument") => {
+  const onClickWrite = (type: EssayType) => {
     const essayByType = remainingEssays.filter((essay) => essay.type === type);
 
     const randomIndex = Math.floor(Math.random() * essayByType.length);
@@ -30,7 +24,6 @@ export const Home = ({ context }: PageProps) => {
   };
 
   const onClickView = (essayId: string) => {
-    console.log(essayId);
     context.selectEssay(essayId);
   };
 

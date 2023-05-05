@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Heading } from "@chakra-ui/react";
 import { useCountdown } from "../hooks/useCountdown";
-import { getCurrentTimeInSecondsUNIX } from "../utils/datetime";
+import { getCurrentTimestampSeconds } from "../utils/datetime";
 
 type CountdownTimerProps = {
   endTime: number;
@@ -9,7 +9,7 @@ type CountdownTimerProps = {
 };
 
 export const CountdownTimer = (props: CountdownTimerProps) => {
-  const currentTime = getCurrentTimeInSecondsUNIX();
+  const currentTime = getCurrentTimestampSeconds();
   const remainingSeconds = useCountdown(props.endTime - currentTime);
 
   useEffect(() => {

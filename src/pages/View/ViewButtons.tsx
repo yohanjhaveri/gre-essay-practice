@@ -1,4 +1,4 @@
-import { HStack } from "@chakra-ui/react";
+import { Stack } from "@chakra-ui/react";
 import { FaDownload, FaRedo, FaTrashAlt } from "react-icons/fa";
 import { ActionButton } from "../../components/ActionButton";
 
@@ -11,7 +11,7 @@ type ViewButtonsProps = {
 };
 
 export const ViewButtons = (props: ViewButtonsProps) => (
-  <HStack spacing="2.5">
+  <Stack direction={["column", "row"]} spacing="0" gap="2.5" align="flex-start">
     <ActionButton
       leftIcon={<FaRedo />}
       colorScheme="orange"
@@ -37,5 +37,5 @@ export const ViewButtons = (props: ViewButtonsProps) => (
         Download Response
       </a>
     </ActionButton>
-  </HStack>
+  </Stack>
 );

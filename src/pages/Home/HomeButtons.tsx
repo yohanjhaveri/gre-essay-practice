@@ -1,8 +1,9 @@
 import { HStack } from "@chakra-ui/react";
 import { ActionButton } from "../../components/ActionButton";
+import { EssayType } from "../../context/Context";
 
 type HomeButtonsProps = {
-  onClickWrite: (type: "issue" | "argument") => void;
+  onClickWrite: (type: EssayType) => void;
 };
 
 export const HomeButtons = (props: HomeButtonsProps) => (

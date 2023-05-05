@@ -7,7 +7,7 @@ type ViewResponseProps = {
 
 export const ViewResponse = (props: ViewResponseProps) => (
   <Text
-    padding="12"
+    padding={{ base: "8", md: "12" }}
     marginBottom="8"
     borderRadius="md"
     background={theme.bgColor}
