@@ -1,26 +1,25 @@
-import { Provider } from "react-redux";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
-import { PersistGate } from "redux-persist/integration/react";
-import { store, persistor } from "./redux/store";
+import { Provider } from "./context/Context";
+import { PageWrapper } from "./components/PageWrapper";
 
-import { Home } from "./pages/Home";
-import { Write } from "./pages/Write";
-import { View } from "./pages/View";
+import { Home } from "./pages/Home/Home";
+import { Write } from "./pages/Write/Write";
+import { View } from "./pages/View/View";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <PageWrapper page={Home} />,
   },
   {
     path: "/write",
-    element: <Write />,
+    element: <PageWrapper page={Write} />,
   },
   {
     path: "/view",
-    element: <View />,
+    element: <PageWrapper page={View} />,
   },
 ]);
 
@@ -31,14 +30,10 @@ const config = {
 
 const theme = extendTheme({ config });
 
-export const App = () => {
-  return (
-    <Provider store={store}>
-      <PersistGate persistor={persistor}>
-        <ChakraProvider resetCSS theme={theme}>
-          <RouterProvider router={router} />
-        </ChakraProvider>
-      </PersistGate>
-    </Provider>
-  );
-};
+export const App = () => (
+  <Provider>
+    <ChakraProvider resetCSS theme={theme}>
+      <RouterProvider router={router} />
+    </ChakraProvider>
+  </Provider>
+);

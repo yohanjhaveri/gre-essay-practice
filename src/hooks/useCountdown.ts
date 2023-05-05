@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 
-export const useCountdown = (initial: number) => {
-  const [remaining, setRemaining] = useState(initial);
+export const useCountdown = (initialSeconds: number) => {
+  const [remainingSeconds, setRemainingSeconds] = useState(initialSeconds);
 
   useEffect(() => {
     const countdownInterval = setInterval(() => {
-      setRemaining((prev) => prev - 1);
+      setRemainingSeconds((prev) => prev - 1);
     }, 1000);
 
     return () => clearInterval(countdownInterval);
   }, []);
 
-  return remaining;
+  return remainingSeconds;
 };

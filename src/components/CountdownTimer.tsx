@@ -8,25 +8,22 @@ type CountdownTimerProps = {
   onTimerEnd: () => void;
 };
 
-export const CountdownTimer = ({
-  endTime,
-  onTimerEnd,
-}: CountdownTimerProps) => {
+export const CountdownTimer = (props: CountdownTimerProps) => {
   const currentTime = getCurrentTimeInSecondsUNIX();
-  const remaining = useCountdown(endTime - currentTime);
+  const remainingSeconds = useCountdown(props.endTime - currentTime);
 
   useEffect(() => {
-    if (remaining <= 0) {
-      onTimerEnd();
+    if (remainingSeconds <= 0) {
+      props.onTimerEnd();
     }
-  }, [remaining, onTimerEnd]);
+  }, [remainingSeconds, props]);
 
-  const remainingMinutes = ("0" + Math.floor(remaining / 60)).slice(-2);
-  const remainingSeconds = ("0" + (remaining % 60)).slice(-2);
+  const minutes = ("0" + Math.floor(remainingSeconds / 60)).slice(-2);
+  const seconds = ("0" + (remainingSeconds % 60)).slice(-2);
 
   return (
     <Heading size="md" color="blue.500">
-      {remainingMinutes}:{remainingSeconds}
+      {minutes}:{seconds}
     </Heading>
   );
 };
