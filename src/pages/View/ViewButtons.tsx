@@ -17,7 +17,7 @@ export const ViewButtons = (props: ViewButtonsProps) => (
       colorScheme="orange"
       onClick={props.onRetry}
     >
-      Retry Essay
+      Retry
     </ActionButton>
 
     <ActionButton
@@ -25,7 +25,7 @@ export const ViewButtons = (props: ViewButtonsProps) => (
       colorScheme="red"
       onClick={props.onDelete}
     >
-      Delete Response
+      Delete
     </ActionButton>
 
     <ActionButton
@@ -34,7 +34,7 @@ export const ViewButtons = (props: ViewButtonsProps) => (
       isLoading={props.downloadLoading}
     >
       <a href={props.downloadLink} download={props.downloadName}>
-        Download Response
+        Download
       </a>
     </ActionButton>
   </Stack>
