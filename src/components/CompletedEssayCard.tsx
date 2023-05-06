@@ -11,7 +11,7 @@ type CompletedEssayCardProps = {
 };
 
 export const CompletedEssayCard = (props: CompletedEssayCardProps) => {
-  const paddedId = formatId(props.id);
+  const formattedId = formatId(props.id);
   const date = timestampToDate(props.startTime);
 
   return (
@@ -29,7 +29,7 @@ export const CompletedEssayCard = (props: CompletedEssayCardProps) => {
           fontWeight="extrabold"
           fontFamily="Monaco"
         >
-          {paddedId}
+          {formattedId}
         </Text>
         <Text color={theme.grayColor} fontWeight="semibold">
           {date}

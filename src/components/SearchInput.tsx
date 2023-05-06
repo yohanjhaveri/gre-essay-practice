@@ -7,7 +7,6 @@ import {
 } from "@chakra-ui/react";
 
 type SearchInputProps = Omit<InputProps, "value" | "onChange"> & {
-  hide?: boolean;
   value: string;
   onChange: (v: string) => void;
 };
@@ -15,14 +14,13 @@ type SearchInputProps = Omit<InputProps, "value" | "onChange"> & {
 export const SearchInput = ({
   value,
   onChange,
-  hide,
   isDisabled,
   ...rest
 }: SearchInputProps) => (
-  <InputGroup display={hide ? "none" : ""}>
+  <InputGroup>
     <InputLeftElement
       pointerEvents="none"
-      children={<SearchIcon color={isDisabled ? "gray.700" : "gray.500"} />}
+      children={<SearchIcon color="gray.500" />}
     />
     <Input
       value={value}
@@ -31,7 +29,6 @@ export const SearchInput = ({
       borderColor="gray.700"
       _hover={{ borderColor: "gray.500" }}
       _placeholder={{ color: "gray.500" }}
-      isDisabled={isDisabled}
       {...rest}
     />
   </InputGroup>
