@@ -18,7 +18,7 @@ export const Footnote = () => {
       <ChakraLink
         href="https://yohanjhaveri.com"
         color={theme.blueColor}
-        fontWeight="600"
+        fontWeight="semibold"
         target="_blank"
         rel="noreferrer"
       >
