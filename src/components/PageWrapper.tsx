@@ -17,7 +17,7 @@ export const PageWrapper = (props: PageWrapperProps) => {
 
   return context ? (
     <Flex
-      width={{ base: "full", md: "container.lg" }}
+      width={{ base: "full", lg: "container.lg" }}
       minHeight="100dvh"
       padding="8"
     >

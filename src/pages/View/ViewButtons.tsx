@@ -11,7 +11,7 @@ type ViewButtonsProps = {
 };
 
 export const ViewButtons = (props: ViewButtonsProps) => (
-  <HStack width="full" spacing="2.5">
+  <HStack spacing="2.5">
     <ActionButton
       leftIcon={<FaRedo />}
       colorScheme="orange"
