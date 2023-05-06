@@ -19,7 +19,7 @@ export type ConfirmationModalProps = {
 };
 
 export const ConfirmationModal = (props: ConfirmationModalProps) => (
-  <Modal isOpen onClose={props.onClose}>
+  <Modal size="sm" isOpen onClose={props.onClose}>
     <ModalOverlay />
 
     <ModalContent>
