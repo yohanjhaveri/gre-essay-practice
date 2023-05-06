@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   Button,
   Drawer,
@@ -14,11 +15,10 @@ import {
   IconButton,
   Tooltip,
 } from "@chakra-ui/react";
-import { useState } from "react";
 import { FaCheckCircle, FaRandom, FaRegCircle } from "react-icons/fa";
 import { SearchInput } from "../../components/SearchInput";
-import { Essays, EssayType } from "../../context/Context";
-import { padIdLeft } from "../../utils/format";
+import { formatId, formatTitleCase } from "../../utils/format";
+import { Essay, Essays, EssayType } from "../../context/Context";
 
 export type HomeSelectEssayPromptProps = {
   type: EssayType;
@@ -31,15 +31,15 @@ export const HomeSelectEssayPrompt = (props: HomeSelectEssayPromptProps) => {
   const [search, setSearch] = useState("");
   const [essayId, setEssayId] = useState("");
 
-  const filteredEssays = props.essays.filter(
-    (essay) =>
-      padIdLeft(essay.id).includes(search) ||
-      essay.prompt.toLowerCase().includes(search.toLowerCase())
-  );
+  const matchesSearch = (essay: Essay) => {
+    const id = formatId(essay.id);
+    const prompt = essay.prompt.toLowerCase();
+    const searchQuery = search.toLowerCase();
 
-  const convertToTitleCase = (text: string) => {
-    return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+    return searchQuery.includes(id) || searchQuery.includes(prompt);
   };
+
+  const filteredEssays = props.essays.filter(matchesSearch);
 
   const onSelect = (id: string) => {
     setEssayId(id);
@@ -53,17 +53,16 @@ export const HomeSelectEssayPrompt = (props: HomeSelectEssayPromptProps) => {
     const randomIndex = Math.floor(Math.random() * essaysByType.length);
     const randomEssay = essaysByType[randomIndex];
 
-    setSearch("");
-
     document.getElementById(`essay-prompt-${randomEssay.id}`)?.scrollIntoView({
       behavior: "auto",
       block: "start",
     });
 
+    setSearch("");
     setEssayId(randomEssay.id);
   };
 
-  const title = `Select ${convertToTitleCase(props.type)} Essay Prompt`;
+  const title = `Select ${formatTitleCase(props.type)} Essay Prompt`;
 
   return (
     <Drawer isOpen onClose={props.onClose} size="md">
@@ -110,7 +109,7 @@ export const HomeSelectEssayPrompt = (props: HomeSelectEssayPromptProps) => {
                     fontWeight="extrabold"
                     fontFamily="Monaco"
                   >
-                    {padIdLeft(essay.id)}
+                    {formatId(essay.id)}
                   </Text>
                   <Icon
                     as={essay.id === essayId ? FaCheckCircle : FaRegCircle}

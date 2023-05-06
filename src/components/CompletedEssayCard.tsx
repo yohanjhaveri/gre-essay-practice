@@ -1,6 +1,6 @@
 import { HStack, Stack, Text } from "@chakra-ui/react";
 import { timestampToDate } from "../utils/datetime";
-import { padIdLeft } from "../utils/format";
+import { formatId } from "../utils/format";
 import { theme } from "../theme";
 
 type CompletedEssayCardProps = {
@@ -11,7 +11,7 @@ type CompletedEssayCardProps = {
 };
 
 export const CompletedEssayCard = (props: CompletedEssayCardProps) => {
-  const paddedId = padIdLeft(props.id);
+  const paddedId = formatId(props.id);
   const date = timestampToDate(props.startTime);
 
   return (
