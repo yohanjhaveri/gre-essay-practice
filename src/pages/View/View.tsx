@@ -1,5 +1,5 @@
 import { usePDF } from "@react-pdf/renderer";
-import { Stack } from "@chakra-ui/react";
+import { Stack, Text } from "@chakra-ui/react";
 
 import { PDFDocument } from "../../components/PDFDocument";
 
@@ -15,6 +15,7 @@ import {
   ConfirmationModalProps,
 } from "../../components/ConfirmationModal";
 import { useState } from "react";
+import { timestampToDate } from "../../utils/datetime";
 
 export const View = ({ context }: PageProps) => {
   const selectedEssay = context.select as ReqEssay;
@@ -79,14 +80,23 @@ export const View = ({ context }: PageProps) => {
         prompt={selectedEssay.prompt}
         instructions={selectedEssay.instructions}
       />
-      <Stack spacing="4">
-        <ViewButtons
-          onRetry={onRetryClick}
-          onDelete={onDeleteClick}
-          downloadName={`essay-response-${selectedEssay.id}.pdf`}
-          downloadLink={instance.url || ""}
-          downloadLoading={instance.loading}
-        />
+      <Stack spacing="3">
+        <Stack
+          direction={{ base: "column", md: "row" }}
+          justify="space-between"
+          align={{ base: "flex-start", md: "flex-end" }}
+          color="gray.400"
+          fontStyle="italic"
+        >
+          <ViewButtons
+            onRetry={onRetryClick}
+            onDelete={onDeleteClick}
+            downloadName={`essay-response-${selectedEssay.id}.pdf`}
+            downloadLink={instance.url || ""}
+            downloadLoading={instance.loading}
+          />
+          <Text>Submitted on {timestampToDate(selectedEssay.startTime)}</Text>
+        </Stack>
         <ViewResponse answer={selectedEssay.answer} />
       </Stack>
     </Stack>
