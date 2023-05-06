@@ -1674,12 +1674,6 @@
     "instructions": "Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation is likely to have the predicted result. Be sure to explain how the answers to these questions would help to evaluate the recommendation."
   },
   {
-    "id": "267",
-    "type": "argument",
-    "prompt": "The following appeared in a letter from a firm providing investment advice to a client.\n\"Homes in the northeastern United States, where winters are typically cold, have traditionally used oil as their major fuel for heating. Last year that region experienced 90 days with below-average temperatures, and climate forecasters at Waymarsh University predict that this weather pattern will continue for several more years. Furthermore, many new homes have been built in this region during the past year. Because these developments will certainly result in an increased demand for heating oil, we recommend investment in Consolidated Industries, one of whose major business operations is the retail sale of home heating oil.\"",
-    "instructions": "Write a response in which you discuss what questions would need to be answered in order to decide whether the recommendation and the argument on which it is based are reasonable. Be sure to explain how the answers to these questions would help to evaluate the recommendation."
-  },
-  {
     "id": "280",
     "type": "argument",
     "prompt": "Benton City residents have adopted healthier lifestyles. A recent survey of city residents shows that the eating habits of city residents conform more closely to government nutritional recommendations than they did ten years ago. During those ten years, local sales of food products containing kiran, a substance that a scientific study has shown reduces cholesterol, have increased fourfold, while sales of sulia, a food rarely eaten by the healthiest residents, have declined dramatically. Because of these positive changes in the eating habits of Benton City residents, we predict that the obesity rate in the city will soon be well below the national average.",
