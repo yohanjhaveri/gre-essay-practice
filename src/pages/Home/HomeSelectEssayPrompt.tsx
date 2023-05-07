@@ -36,7 +36,7 @@ export const HomeSelectEssayPrompt = (props: HomeSelectEssayPromptProps) => {
     const prompt = essay.prompt.toLowerCase();
     const searchQuery = search.toLowerCase();
 
-    return searchQuery.includes(id) || searchQuery.includes(prompt);
+    return id.includes(searchQuery) || prompt.includes(searchQuery);
   };
 
   const filteredEssays = props.essays.filter(matchesSearch);

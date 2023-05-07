@@ -16,8 +16,10 @@ export const useStatePersist = <T>(
   }, [key]);
 
   useEffect(() => {
-    const json = JSON.stringify(state);
-    localStorage.setItem(key, json);
+    if (state) {
+      const json = JSON.stringify(state);
+      localStorage.setItem(key, json);
+    }
   }, [key, state]);
 
   return [state, setState];

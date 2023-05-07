@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { Flex } from "@chakra-ui/react";
 import { Context, ContextValue } from "../context/Context";
 
