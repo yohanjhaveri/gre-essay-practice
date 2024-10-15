@@ -5,7 +5,5 @@ type ViewAnswerProps = {
 };
 
 export const ViewAnswer = (props: ViewAnswerProps) => (
-  <Text fontSize="16px" fontWeight="400">
-    {props.answer || <em>No response</em>}
-  </Text>
+  <Text fontWeight="400">{props.answer || <em>No response</em>}</Text>
 );

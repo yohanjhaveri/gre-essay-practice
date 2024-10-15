@@ -23,7 +23,7 @@ export const CompletedEssayCard = (props: CompletedEssayCardProps) => {
       height="full"
       minHeight="52"
     >
-      <HStack fontSize="xs" justify="space-between">
+      <HStack fontSize="sm" justify="space-between">
         <Text
           color={theme.blueColor}
           fontWeight="extrabold"
