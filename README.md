@@ -18,20 +18,35 @@ A tool that helps with practicing essay responses for the GRE test
 
 ### Home
 
-<img width="1470" alt="Screenshot 2024-10-15 at 12 48 42 AM" src="https://github.com/user-attachments/assets/72029638-8c73-4a89-8747-1b8bcaa21593">
-<img width="1470" alt="Screenshot 2024-10-15 at 12 50 36 AM" src="https://github.com/user-attachments/assets/dc9bc7ce-40eb-4401-a2fd-7abf8be32fa2">
-<img width="1470" alt="Screenshot 2024-10-15 at 12 50 55 AM" src="https://github.com/user-attachments/assets/b951d70c-8737-43c2-a128-b7a5a2b7fffd">
+<img width="1470" alt="Screenshot 2024-10-15 at 12 48 42 AM" src="https://github.com/user-attachments/assets/92dc1a95-a4f1-4591-a613-16909b60a78b">
+<br>
+<br>
+<img width="1470" alt="Screenshot 2024-10-15 at 12 50 36 AM" src="https://github.com/user-attachments/assets/1071a57c-d76d-4f90-b2ea-be000439b2ba">
+<br>
+<br>
+<img width="1470" alt="Screenshot 2024-10-15 at 12 50 48 AM" src="https://github.com/user-attachments/assets/ed443e0f-6f9a-47e3-8add-0c3cfd404591">
+
 
 ### Write
 
-<img width="1470" alt="Screenshot 2024-10-15 at 12 53 16 AM" src="https://github.com/user-attachments/assets/7a8493ca-bdbd-4e71-9942-6919f3e8527a">
+<img width="1470" alt="Screenshot 2024-10-15 at 1 06 11 AM" src="https://github.com/user-attachments/assets/cc30fb6b-2a80-4547-8f79-ab74ee6b7e31">
 
 ### View
 
-<img width="1470" alt="Screenshot 2024-10-15 at 12 48 56 AM" src="https://github.com/user-attachments/assets/b82c569b-129f-4a1a-be86-a84cc263491d">
-<img width="1470" alt="Screenshot 2024-10-15 at 12 49 03 AM" src="https://github.com/user-attachments/assets/b9df42b2-3364-46ea-8e31-4e5d4accc25d">
-<img width="1470" alt="Screenshot 2024-10-15 at 12 49 11 AM" src="https://github.com/user-attachments/assets/09a9c416-219b-4468-b4fd-e40ee63a1bba">
-<img width="1470" alt="Screenshot 2024-10-15 at 12 49 18 AM" src="https://github.com/user-attachments/assets/86967c2c-517e-4d6b-866f-851454bfce6f">
-<img width="1470" alt="Screenshot 2024-10-15 at 12 49 26 AM" src="https://github.com/user-attachments/assets/9826af6f-aa19-42cc-b0ed-74cbe2c12039">
+<img width="1470" alt="Screenshot 2024-10-15 at 12 48 56 AM" src="https://github.com/user-attachments/assets/f7b753e3-f6e3-4770-9d85-b976e9b7cf53">
+<br>
+<br>
+<img width="1470" alt="Screenshot 2024-10-15 at 12 49 03 AM" src="https://github.com/user-attachments/assets/20dd8466-f29b-480c-ad14-9ba5887e0686">
+<br>
+<br>
+<img width="1470" alt="Screenshot 2024-10-15 at 12 49 11 AM" src="https://github.com/user-attachments/assets/42f833ac-4ca2-4088-8378-6f3abc9dbd19">
+<br>
+<br>
+<img width="1470" alt="Screenshot 2024-10-15 at 12 49 18 AM" src="https://github.com/user-attachments/assets/7b25a598-47c0-4a70-b531-7d10b167b47c">
+<br>
+<br>
+<img width="1470" alt="Screenshot 2024-10-15 at 12 49 26 AM" src="https://github.com/user-attachments/assets/4584f799-6e7e-409d-9797-36620ab8d984">
+
+
 
 
