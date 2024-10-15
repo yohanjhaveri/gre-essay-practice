@@ -119,15 +119,11 @@ export const Provider = ({ children }: ProviderProps) => {
       return;
     }
 
-    const response = await essayFeedbackAndScore(
+    const { score, feedback } = await essayFeedbackAndScore(
       active.type,
       active.prompt,
       active.answer
     );
-
-    const data = response.content;
-
-    const [score, feedback] = data.split("\n").map((s: string) => s.trim());
 
     const completed = {
       ...active,

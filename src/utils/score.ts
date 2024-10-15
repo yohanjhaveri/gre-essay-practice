@@ -13,5 +13,22 @@ export const essayFeedbackAndScore = async (
         answer,
       }),
     }
-  ).then((res) => res.json());
+  )
+    .then((res) => res.json())
+    .then((data) => {
+      const grade = data.content;
+
+      const split = grade
+        .split("\n")
+        .map((s: string) => s.trim())
+        .filter((s: string) => s);
+
+      const regex = /[0-6]/;
+      const score = split[0].match(regex) || split[0].match(/NS/);
+      const feedback = split[1];
+
+      console.log({ score, feedback });
+
+      return { score, feedback };
+    });
 };
