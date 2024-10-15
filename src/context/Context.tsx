@@ -3,6 +3,7 @@ import { useStatePersist } from "../hooks/useStatePersist";
 
 import data from "../data.json";
 import { getCurrentTimestampSeconds } from "../utils/datetime";
+import { essayFeedbackAndScore } from "../utils/score";
 
 export type EssayType = "issue" | "argument";
 
@@ -13,6 +14,8 @@ export type Essay = {
   answer?: string;
   startTime?: number;
   submitTime?: number;
+  score?: string;
+  feedback?: string;
   instructions: string;
 };
 
@@ -29,7 +32,7 @@ export type ContextValue = {
   startEssay: (essayId: string) => void;
   updateEssay: (answer: string) => void;
   cancelEssay: () => void;
-  submitEssay: () => void;
+  submitEssay: () => Promise<void>;
   deleteEssay: () => void;
   redoEssay: () => void;
 };
@@ -75,6 +78,8 @@ export const Provider = ({ children }: ProviderProps) => {
           answer: "",
           startTime: getCurrentTimestampSeconds(),
           submitTime: -1,
+          score: "",
+          feedback: "",
           instructions: essay.instructions,
         }
     );
@@ -94,6 +99,8 @@ export const Provider = ({ children }: ProviderProps) => {
           answer,
           startTime: prev.startTime,
           submitTime: prev.submitTime,
+          score: "",
+          feedback: "",
           instructions: prev.instructions,
         }
     );
@@ -107,19 +114,30 @@ export const Provider = ({ children }: ProviderProps) => {
     setActive(null);
   };
 
-  const submitEssay = () => {
+  const submitEssay = async () => {
     if (!active) {
       return;
     }
 
-    setEssays((prev) =>
-      prev.map((e) =>
-        e.id === active.id
-          ? { ...active, submitTime: getCurrentTimestampSeconds() }
-          : e
-      )
+    const response = await essayFeedbackAndScore(
+      active.type,
+      active.prompt,
+      active.answer
     );
-    setSelect(active);
+
+    const data = response.content;
+
+    const [score, feedback] = data.split("\n").map((s: string) => s.trim());
+
+    const completed = {
+      ...active,
+      submitTime: getCurrentTimestampSeconds(),
+      score,
+      feedback,
+    };
+
+    setEssays((prev) => prev.map((e) => (e.id === active.id ? completed : e)));
+    setSelect(completed);
     setActive(null);
   };
 

@@ -14,6 +14,7 @@ export type ConfirmationModalProps = {
   children: React.ReactNode;
   colorScheme: ButtonProps["colorScheme"];
   buttonText: string;
+  isLoading?: boolean;
   onClose: () => void;
   onConfirm: () => void;
 };
@@ -33,7 +34,11 @@ export const ConfirmationModal = (props: ConfirmationModalProps) => (
         <Button variant="solid" mr="3" onClick={props.onClose}>
           Close
         </Button>
-        <Button colorScheme={props.colorScheme} onClick={props.onConfirm}>
+        <Button
+          colorScheme={props.colorScheme}
+          onClick={props.onConfirm}
+          isLoading={props.isLoading || false}
+        >
           {props.buttonText}
         </Button>
       </ModalFooter>

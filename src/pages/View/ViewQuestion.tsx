@@ -11,8 +11,6 @@ export const ViewQuestion = (props: ViewQuestionProps) => (
     <Text fontWeight="semibold" whiteSpace="pre-wrap">
       {props.prompt}
     </Text>
-    <Text color={theme.grayColor} marginBottom="8">
-      {props.instructions}
-    </Text>
+    <Text color={theme.grayColor}>{props.instructions}</Text>
   </Stack>
 );

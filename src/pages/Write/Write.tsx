@@ -17,6 +17,7 @@ export const Write = ({ context }: PageProps) => {
   const activeEssay = context.active as ReqEssay;
 
   const [modal, setModal] = useState<ConfirmationModalProps | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
 
   const onClose = () => {
     setModal(null);
@@ -52,15 +53,23 @@ export const Write = ({ context }: PageProps) => {
     context.cancelEssay();
   };
 
-  const onSubmitConfirm = () => {
-    context.submitEssay();
+  const onSubmitConfirm = async () => {
+    setIsLoading(true);
+
+    try {
+      await context.submitEssay();
+    } catch (e) {
+      console.error("API ERROR!!!", e);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const SECONDS_IN_30_MINUTES = 30 * 60;
 
   return activeEssay ? (
     <Stack spacing="8">
-      {modal && <ConfirmationModal {...modal} />}
+      {modal && <ConfirmationModal {...modal} isLoading={isLoading} />}
       <WriteHeader
         endTime={
           activeEssay.startTime && activeEssay.startTime + SECONDS_IN_30_MINUTES

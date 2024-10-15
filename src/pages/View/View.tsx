@@ -6,7 +6,7 @@ import { PDFDocument } from "../../components/PDFDocument";
 import { ViewBack } from "./ViewBack";
 import { ViewButtons } from "./ViewButtons";
 import { ViewQuestion } from "./ViewQuestion";
-import { ViewResponse } from "./ViewResponse";
+import { ViewAnswer } from "./ViewAnswer";
 
 import { PageProps } from "../../components/PageWrapper";
 import { ReqEssay } from "../../context/Context";
@@ -16,6 +16,8 @@ import {
 } from "../../components/ConfirmationModal";
 import { useState } from "react";
 import { timestampToDate } from "../../utils/datetime";
+import { ViewGrading } from "./ViewGrading";
+import { theme } from "../../theme";
 
 export const View = ({ context }: PageProps) => {
   const selectedEssay = context.select as ReqEssay;
@@ -81,12 +83,17 @@ export const View = ({ context }: PageProps) => {
         instructions={selectedEssay.instructions}
       />
       <Stack spacing="3">
+        <ViewGrading
+          score={selectedEssay.score}
+          feedback={selectedEssay.feedback}
+        />
         <Stack
           direction={{ base: "column", md: "row" }}
           justify="space-between"
           align={{ base: "flex-start", md: "flex-end" }}
           color="gray.400"
           fontStyle="italic"
+          marginBottom="2"
         >
           <ViewButtons
             onRetry={onRetryClick}
@@ -97,7 +104,15 @@ export const View = ({ context }: PageProps) => {
           />
           <Text>Submitted on {timestampToDate(selectedEssay.startTime)}</Text>
         </Stack>
-        <ViewResponse answer={selectedEssay.answer} />
+        <Stack
+          padding={{ base: "6", md: "8" }}
+          borderRadius="md"
+          background={theme.bgColor}
+          whiteSpace="pre-wrap"
+          spacing="3"
+        >
+          <ViewAnswer answer={selectedEssay.answer} />
+        </Stack>
       </Stack>
     </Stack>
   ) : null;
