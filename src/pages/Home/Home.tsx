@@ -1,9 +1,10 @@
+import { useState } from "react";
 import { Stack } from "@chakra-ui/react";
 
 import { Footnote } from "../../components/Footnote";
 
-import { HomeButtons } from "./HomeButtons";
 import { HomeHeading } from "./HomeHeading";
+import { HomeButtons } from "./HomeButtons";
 import { HomeEssaysGrid } from "./HomeEssaysGrid";
 import { HomeEssaysNone } from "./HomeEssaysNone";
 
@@ -13,7 +14,6 @@ import {
   HomeSelectEssayPrompt,
   HomeSelectEssayPromptProps,
 } from "./HomeSelectEssayPrompt";
-import { useState } from "react";
 
 export const Home = ({ context }: PageProps) => {
   const [drawer, setDrawer] = useState<HomeSelectEssayPromptProps | null>(null);
